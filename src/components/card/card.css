@@ -1,0 +1,51 @@
+.card {
+	display: flex;
+	justify-content: space-between;
+	gap: 32px;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px 0 rgba(18, 18, 18, 0.09);
+	background: #fff;
+	padding: 17px 17px 23px 17px;
+}
+.card__wrapper {
+	display: flex;
+	gap: 32px;
+}
+.card__title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: var(--black);
+}
+.card__author,
+.card__category {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 32px;
+	color: var(--main);
+}
+.card__author > span,
+.card__category > span {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 32px;
+	color: var(--black);
+}
+.card__description {
+	max-width: 750px;
+	margin-top: 15px;
+}
+.card__description > p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 30px;
+	color: #212121;
+}
+
+.button__active svg {
+	fill: var(--main);
+}
+.button__active path {
+	stroke: var(--main);
+}
